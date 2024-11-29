@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, violet, rgb(115, 132, 228)); */
+     background-image: url(pngtree-science-fiction-cool-planet-background-material-png-image_393121.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+    text-shadow: 0 0 5px  #a454da , 0 0 10px rgb(159, 8, 219) ;
+    margin-bottom: 20px;
+
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: purple; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: violet;
+    box-shadow: 0 0 25px violet;
+    transform: scale(0.9);
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    color: #2D2DFF;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
